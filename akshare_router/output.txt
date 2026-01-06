@@ -1,0 +1,52 @@
+/opt/miniconda3/envs/ak/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/51/qr482vss2jn_fp0tg6mt854h0000gn/T/jieba.cache
+Loading model cost 0.237 seconds.
+Prefix dict has been built successfully.
+[cli] 正在初始化系统...
+[cli] 加载接口数据: /Users/mac/dev/fin/akshare_router/../api/1_stock_enriched.csv
+[api_loader] 成功加载 148 个接口（原始 148 条，去重 0 条）
+[cli] 创建 Embedding 适配器...
+[cli] 初始化向量库: /Users/mac/dev/fin/akshare_router/./data/chroma_db
+[vector_store] 已从 DB 加载 148 条接口的版本信息
+[vector_store] 初始化完成，持久化目录: /Users/mac/dev/fin/akshare_router/./data/chroma_db
+[vector_store] 当前集合中有 148 条记录
+[cli] 构建向量索引...
+[vector_store] 开始构建索引，共 148 个接口...
+[vector_store] 所有接口均为最新，无需更新
+[vector_store] 索引构建完成，当前共 148 条记录
+[vector_store] 已加载 148 个接口到缓存
+[cli] 创建 LLM 路由器...
+[cli] 初始化完成！
+[conversation] 加载自定义词典: 267 个词条
+[conversation] 对话状态已重置
+
+============================================================
+查询: 查询股票代码sh600000在20230101到20230201期间的日K线数据
+============================================================
+[conversation] 提取的关键词: ['20230201', '股票', 'sh600000', 'K线', '日K线', '查询', '20230101', '数据', '股票代码']
+[conversation] 检索到 5 个候选接口
+  1. get_us_stock_name (获得美股的所有股票代码...) [Score: N/A]
+  2. stock_financial_us_report_em (东方财富-美股-财务报表-三大报表...) [Score: N/A]
+  3. stock_financial_us_analysis_indicator_em (东方财富-美股-财务分析-主要指标...) [Score: N/A]
+  4. stock_zh_ah_name (A+H 股所有股票代码...) [Score: N/A]
+  5. stock_zh_a_minute (A 股分时历史行情数据(分钟)...) [Score: N/A]
+[conversation] LLM 路由结果: {
+  "name": "stock_zh_a_minute",
+  "arguments": {
+    "symbol": "sh600000",
+    "period": "1440",
+    "adjust": null
+  },
+  "missing_params": [
+    "adjust"
+  ]
+}
+
+响应:
+请问您需要查询的是前复权（qfq）、后复权（hfq）还是不复权的数据？请在“qfq”、“hfq”或留空中选择一项。
+============================================================

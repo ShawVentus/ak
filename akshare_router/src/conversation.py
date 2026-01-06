@@ -95,6 +95,9 @@ class ConversationManager:
         )
         
         print(f"[conversation] 检索到 {len(candidates)} 个候选接口")
+        # 调试信息：打印候选接口
+        for i, cand in enumerate(candidates):
+            print(f"  {i+1}. {cand['name']} ({cand['description'][:30]}...) [Score: {cand.get('score', 'N/A')}]")
         
         if not candidates:
             response = self._handle_no_match(user_input)
@@ -103,6 +106,8 @@ class ConversationManager:
         
         # 4. LLM 路由
         result = self.router.route(user_input, candidates)
+        # 调试信息：打印路由结果
+        print(f"[conversation] LLM 路由结果: {json.dumps(result, ensure_ascii=False, indent=2)}")
         
         # 5. 处理路由结果
         if result.get('name') is None:

@@ -1,0 +1,131 @@
+/opt/miniconda3/envs/ak/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[cli] 正在初始化系统...
+[cli] 加载接口数据: /Users/mac/dev/fin/akshare_router/../api/1_stock_enriched.csv
+[api_loader] 警告: 发现重复接口 stock_hk_ggt_components_em，已跳过
+[api_loader] 成功加载 148 个接口（原始 149 条，去重 1 条）
+[cli] 创建 Embedding 适配器...
+[cli] 初始化向量库: /Users/mac/dev/fin/akshare_router/./data/chroma_db
+[vector_store] 已从 DB 加载 148 条接口的版本信息
+[vector_store] 初始化完成，持久化目录: /Users/mac/dev/fin/akshare_router/./data/chroma_db
+[vector_store] 当前集合中有 148 条记录
+[cli] 构建向量索引...
+[vector_store] 开始构建索引，共 148 个接口...
+[vector_store] 需要更新 148 个接口的向量...
+[BohriumEmbedding] 处理 148 条文本 (Batch: 8)
+  > 批次 1/19 (8 条)
+  > 批次 2/19 (8 条)
+  > 批次 3/19 (8 条)
+  > 批次 4/19 (8 条)
+  > 批次 5/19 (8 条)
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/ak/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/mac/dev/fin/akshare_router/src/bohrium_embedding.py", line 227, in embed_documents
+    result = await self._embed_batch_with_retry(client, batch)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/dev/fin/akshare_router/src/bohrium_embedding.py", line 144, in _embed_batch_with_retry
+    async for attempt in AsyncRetrying(
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/tenacity/_asyncio.py", line 71, in __anext__
+    do = self.iter(retry_state=self._retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/mac/dev/fin/akshare_router/src/bohrium_embedding.py", line 162, in _embed_batch_with_retry
+    response = await client.post(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpx/_client.py", line 1877, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpx/_client.py", line 1559, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpx/_client.py", line 1646, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpx/_client.py", line 1674, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpx/_client.py", line 1711, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpx/_client.py", line 1748, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpx/_transports/default.py", line 371, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 35, in read
+    return await self._stream.receive(max_bytes=max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/anyio/streams/tls.py", line 244, in receive
+    data = await self._call_sslobject_method(self._ssl_object.read, max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/anyio/streams/tls.py", line 187, in _call_sslobject_method
+    data = await self.transport_stream.receive()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 1292, in receive
+    await self._protocol.read_event.wait()
+  File "/opt/miniconda3/envs/ak/lib/python3.11/asyncio/locks.py", line 213, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/dev/fin/akshare_router/cli.py", line 219, in <module>
+    main()
+  File "/Users/mac/dev/fin/akshare_router/cli.py", line 206, in main
+    vector_store, router, apis = initialize_system(config, csv_path)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/dev/fin/akshare_router/cli.py", line 68, in initialize_system
+    vector_store.build_index(apis)
+  File "/Users/mac/dev/fin/akshare_router/src/vector_store.py", line 140, in build_index
+    self.collection.upsert(
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/chromadb/api/models/Collection.py", line 483, in upsert
+    embeddings = self._embed(input=documents)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/site-packages/chromadb/api/models/Collection.py", line 633, in _embed
+    return self._embedding_function(input=input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/dev/fin/akshare_router/src/embedding_adapter.py", line 84, in __call__
+    return asyncio.run(
+           ^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/ak/lib/python3.11/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
