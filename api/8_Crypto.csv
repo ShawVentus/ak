@@ -1,0 +1,5 @@
+子分类,接口名称 (Function),说明 (Description)
+加密货币,crypto_js_spot,提供主流加密货币行情数据接口
+,crypto_name_url_table,加密货币货币名称
+,crypto_bitcoin_hold_report,比特比持仓
+,crypto_bitcoin_cme,CME 比特币成交量

@@ -1,0 +1,19 @@
+子分类,接口名称 (Function),说明 (Description)
+公募/ETF,fund_name_em,基金基本信息
+,fund_info_index_em,指数型基金-基本信息
+,fund_purchase_em,基金申购状态
+,fund_open_fund_info_em,开放式基金-历史数据
+,fund_etf_fund_info_em,场内交易基金-历史数据
+,fund_financial_fund_info_em,理财型基金-历史数据
+,fund_graded_fund_info_em,分级基金-历史数据
+,fund_money_fund_info_em,货币型基金-历史数据
+,fund_value_estimation_em,基金估值
+,fund_etf_hist_em,基金历史行情-东财
+,fund_etf_hist_min_em,基金分时行情-东财
+,fund_new_found_em,新发基金
+,fund_aum_trend_em,基金市场管理规模走势图
+,fund_aum_hist_em,基金市场管理规模历史
+,fund_lof_hist_em,东方财富-LOF 行情
+,fund_lof_hist_min_em,东方财富-LOF 分时行情
+,fund_overview_em,基金基本概况
+,fund_fee_em,基金费率

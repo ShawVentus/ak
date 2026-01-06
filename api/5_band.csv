@@ -1,0 +1,29 @@
+子分类,接口名称 (Function),说明 (Description)
+债券市场,bond_debt_nafmii,中国银行间市场交易商协会-非金融企业债务融资工具注册信息系统
+,get_bond_market_quote,债券市场行情-现券市场成交行情数据
+,get_bond_market_trade,债券市场行情-现券市场做市报价数据
+,bond_zh_hs_daily,债券-沪深债券-历史行情数据
+,bond_china_close_return,收盘收益率曲线历史数据
+,bond_zh_us_rate,中美国债收益率
+,bond_treasure_issue_cninfo,债券报表-债券发行-国债发行
+,bond_local_government_issue_cninfo,债券报表-债券发行-地方债
+,bond_corporate_issue_cninfo,债券报表-债券发行-企业债
+,bond_new_composite_index_cbond,中债-新综合指数
+,bond_composite_index_cbond,中债-综合指数
+,bond_info_cm,中国外汇交易中心暨全国银行间同业拆借中心-债券-信息查询结果
+,bond_info_detail_cm,中国外汇交易中心暨全国银行间同业拆借中心-债券-债券详情
+,bond_sh_buy_back_em,上证质押式回购
+,bond_sz_buy_back_em,深证质押式回购
+,bond_buy_back_hist_em,质押式回购-历史数据
+可转债,bond_zh_hs_cov_daily,债券-沪深可转债-历史行情数据
+,bond_zh_cov,债券-可转债数据一览表
+,bond_cov_comparison,债券-可转债数据比价
+,bond_cb_adj_logs_jsl,可转债转股价变动-集思录
+,bond_cb_index_jsl,可转债-集思录可转债等权指数
+,bond_cb_redeem_jsl,可转债-集思录可转债-强赎
+,bond_zh_cov_info,东财-可转债详情
+,bond_cov_issue_cninfo,债券报表-债券发行-可转债发行
+,bond_cov_stock_issue_cninfo,债券报表-债券发行-可转债转股
+,bond_zh_hs_cov_min,可转债分时数据
+,bond_zh_hs_cov_pre_min,可转债分时数据-分时行情-盘前
+,bond_zh_cov_value_analysis,可转债溢价率分析 / 可转债价值分析

@@ -1,0 +1,150 @@
+子分类,接口名称 (Function),说明 (Description)
+港股,stock_hk_spot,港股的历史行情数据(包括前后复权因子)
+,stock_hk_ggt_components_em,港股通成份股
+,stock_hk_hist_min_em,东财-港股分时数据
+,stock_hk_security_profile_em,港股-证券资料
+,stock_hk_dividend_payout_em,港股-分红派息
+,stock_hk_profit_forecast_et,港股盈利预测
+美股,get_us_stock_name,获得美股的所有股票代码
+,stock_us_spot,美股行情报价
+,stock_us_daily,美股的历史数据(包括前复权因子)
+,stock_us_pink_spot_em,美股-粉单市场
+,stock_financial_us_report_em,东方财富-美股-财务报表-三大报表
+,stock_financial_us_analysis_indicator_em,东方财富-美股-财务分析-主要指标
+,stock_us_valuation_baidu,百度股市通-美股-财务报表-估值数据
+A股/综合,stock_zh_ah_daily,A+H 股历史行情数据(日频)
+,stock_zh_ah_name,A+H 股所有股票代码
+,stock_zh_a_daily,A 股历史行情数据(日频)
+,stock_zh_a_minute,A 股分时历史行情数据(分钟)
+,stock_zh_a_cdr_daily,A 股 CDR 历史行情数据(日频)
+,stock_zh_kcb_daily,科创板历史行情数据(日频)
+,stock_zh_b_daily,B 股历史行情数据(日频)
+,stock_zh_b_minute,B 股分时历史行情数据(分钟)
+,stock_tfp_em,两市停复牌数据
+,stock_zh_a_new,股票数据-次新股
+,stock_zh_kcb_report_em,科创板报告
+基本面/财务,stock_info_sz_name_code,深证证券交易所股票代码和简称
+,stock_info_sh_name_code,上海证券交易所股票代码和简称
+,stock_info_bj_name_code,北京证券交易所股票代码和简称
+,stock_info_sh_delist,上海证券交易所暂停和终止上市
+,stock_info_sz_delist,深证证券交易所暂停和终止上市
+,stock_info_sz_change_name,深证证券交易所名称变更
+,stock_info_change_name,A 股股票曾用名列表
+,stock_info_a_code_name,A 股股票代码和简称
+,stock_financial_abstract,财务摘要
+,stock_financial_report_sina,三大财务报表
+,stock_financial_analysis_indicator,财务指标
+,stock_add_stock,股票增发
+,stock_ipo_info,股票新股
+,stock_history_dividend_detail,分红配股
+,stock_history_dividend,历史分红
+,stock_dividend_cninfo,个股历史分红
+,stock_circulate_stock_holder,流动股东
+,stock_fund_stock_holder,基金持股
+,stock_main_stock_holder,主要股东
+,stock_zyjs_ths,主营介绍
+,stock_financial_analysis_indicator_em,东方财富-A股-财务分析-主要指标
+,stock_balance_sheet_by_report_em,东方财富-股票-财务分析-资产负债表-按报告期
+,stock_balance_sheet_by_yearly_em,东方财富-股票-财务分析-资产负债表-按年度
+,stock_profit_sheet_by_report_em,东方财富-股票-财务分析-利润表-报告期
+,stock_profit_sheet_by_yearly_em,东方财富-股票-财务分析-利润表-按年度
+,stock_profit_sheet_by_quarterly_em,东方财富-股票-财务分析-利润表-按单季度
+,stock_cash_flow_sheet_by_report_em,东方财富-股票-财务分析-现金流量表-按报告期
+,stock_cash_flow_sheet_by_yearly_em,东方财富-股票-财务分析-现金流量表-按年度
+,stock_cash_flow_sheet_by_quarterly_em,东方财富-股票-财务分析-现金流量表-按单季度
+,stock_balance_sheet_by_report_delisted_em,东方财富-股票-财务分析-资产负债表-已退市股票-按报告期
+,stock_profit_sheet_by_report_delisted_em,东方财富-股票-财务分析-利润表-已退市股票-按报告期
+,stock_cash_flow_sheet_by_report_delisted_em,东方财富-股票-财务分析-现金流量表-已退市股票-按报告期
+,stock_zygc_em,主营构成-东财
+,stock_zcfz_em,三大表报-资产负债表
+,stock_zcfz_bj_em,三大表报-资产负债表-北交所
+,stock_lrb_em,三大表报-利润表
+,stock_xjll_em,三大表报-现金流量表
+,stock_zh_valuation_baidu,百度股市通-A 股-财务报表-估值数据
+,stock_a_ttm_lyr,全部 A 股-等权重市盈率、中位数市盈率
+,stock_a_all_pb,全部 A 股-等权重市净率、中位数市净率
+,stock_a_gxl_lg,乐咕乐股-股息率-A 股股息率
+板块/概念/行业,stock_sector_spot,板块行情
+,stock_sector_detail,板块详情(具体股票)
+,stock_board_industry_index_ths,同花顺-行业板块-指数日频数据
+,stock_board_concept_index_ths,同花顺-概念板块-指数日频数据
+,stock_board_concept_name_em,概念板块-名称
+,stock_board_concept_hist_em,概念板块-历史行情
+,stock_board_concept_hist_min_em,概念板块-分时历史行情
+,stock_board_concept_cons_em,概念板块-板块成份
+,stock_board_industry_cons_em,行业板块-板块成份
+,stock_board_industry_hist_em,行业板块-历史行情
+,stock_board_industry_hist_min_em,行业板块-分时历史行情
+,stock_board_industry_name_em,行业板块-板块名称
+,stock_industry_category_cninfo,巨潮资讯-行业分类数据
+,stock_industry_change_cninfo,巨潮资讯-上市公司行业归属的变动情况
+,stock_board_change_em,板块异动
+沪深港通,stock_hk_ggt_components_em,港股通成份股
+,stock_hsgt_hist_em,沪深港通历史数据
+,stock_hsgt_fund_flow_summary_em,沪深港通资金流向
+,stock_hsgt_individual_em,沪深港通持股-具体股票
+,stock_hsgt_individual_detail_em,沪深港通持股-具体股票-详情
+,stock_hsgt_fund_min_em,东方财富-数据中心-沪深港通-市场概括-分时数据
+,stock_hsgt_sh_hk_spot_em,东方财富网-行情中心-沪深港通-港股通(沪>港)-股票
+,stock_sgt_settlement_exchange_rate_szse,深港通-港股通业务信息-结算汇率
+,stock_sgt_reference_exchange_rate_szse,深港通-港股通业务信息-参考汇率
+,stock_sgt_reference_exchange_rate_sse,沪港通-港股通信息披露-参考汇率
+,stock_sgt_settlement_exchange_rate_sse,沪港通-港股通信息披露-结算汇兑
+融资融券,stock_margin_sse,上海证券交易所-融资融券汇总
+,stock_margin_detail_sse,上海证券交易所-融资融券详情
+,stock_margin_underlying_info_szse,标的证券信息
+,stock_margin_detail_szse,融资融券明细
+,stock_margin_szse,融资融券汇总
+,stock_margin_account_info,东方财富网-数据中心-融资融券-融资融券账户统计-两融账户信息
+,stock_margin_ratio_pa,融资融券-标的证券名单及保证金比例查询
+特色/统计,stock_gpzy_profile_em,股权质押市场概况
+,stock_gpzy_pledge_ratio_em,上市公司质押比例
+,stock_gpzy_pledge_ratio_detail_em,重要股东股权质押明细
+,stock_gpzy_distribute_statistics_company_em,质押机构分布统计-证券公司
+,stock_gpzy_distribute_statistics_bank_em,质押机构分布统计-银行
+,stock_gpzy_industry_data_em,上市公司质押比例-行业数据
+,stock_sy_profile_em,A股商誉市场概况
+,stock_sy_yq_em,商誉减值预期明细
+,stock_sy_jz_em,个股商誉减值明细
+,stock_sy_em,个股商誉明细
+,stock_sy_hy_em,行业商誉
+,stock_market_pe_lg,乐咕乐股-主板市盈率
+,stock_market_pb_lg,乐咕乐股-主板市净率
+,stock_register_kcb,IPO审核信息-科创板
+,stock_register_cyb,IPO审核信息-创业板
+,stock_register_bj,IPO审核信息-北交所
+,stock_register_sh,IPO审核信息-上海主板
+,stock_register_sz,IPO审核信息-深圳主板
+,stock_register_db,注册制审核-达标企业
+,stock_dzjy_sctj,大宗交易-市场统计
+,stock_dzjy_mrmx,大宗交易-每日明细
+,stock_dzjy_mrtj,大宗交易-每日统计
+,stock_dzjy_hygtj,大宗交易-活跃 A 股统计
+,stock_szse_summary,深圳证券交易所-市场总貌-证券类别统计
+,stock_szse_sector_summary,深圳证券交易所-统计资料-股票行业成交
+,stock_sse_summary,上海证券交易所-股票数据总貌
+,stock_sse_deal_daily,上海证券交易所-每日股票情况
+,stock_ipo_declare_em,首发企业申报
+,stock_ggcg_em,高管持股
+,stock_market_activity_legu,赚钱效应分析
+,stock_qbzf_em,增发
+,stock_pg_em,配股
+,stock_rank_forecast_cninfo,股票-投资评级
+,stock_industry_pe_ratio_cninfo,股票-行业市盈率
+,stock_new_gh_cninfo,新股-新股过会
+,stock_new_ipo_cninfo,新股-IPO
+,stock_hold_num_cninfo,股东人数及持股集中度
+,stock_hold_control_cninfo,实际控制人持股变动
+,stock_hold_management_detail_cninfo,高管持股变动明细
+,stock_hold_change_cninfo,巨潮资讯-数据中心-专题统计-股东股本-股本变动
+,stock_cg_equity_mortgage_cninfo,公司治理-股权质押
+,stock_notice_report,公告大全-沪深 A 股公告
+,stock_repurchase_em,股票回购数据
+,stock_inner_trade_xq,内部交易
+,volatility_yz_rv,已实现波动率计算
+,stock_zh_a_gbjg_em,股本结构
+,stock_zh_growth_comparison_em,行情中心-同行比较-成长性比较
+,stock_zh_valuation_comparison_em,行情中心-同行比较-估值比较
+,stock_zh_dupont_comparison_em,行情中心-同行比较-杜邦分析比较
+,stock_zh_scale_comparison_em,行情中心-同行比较-公司规模
+,stock_zdhtmx_em,重大合同明细

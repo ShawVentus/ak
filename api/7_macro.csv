@@ -1,0 +1,138 @@
+子分类,接口名称 (Function),说明 (Description)
+利率/货币,rate_interbank,银行间拆借利率 (移自外汇分类)
+,repo_rate_hist,回购定盘利率 (移自外汇分类)
+,macro_china_lpr,中国-利率-贷款报价利率
+,macro_china_shibor_all,上海银行业同业拆借报告
+,macro_china_hk_market_info,人民币香港银行同业拆息
+,macro_china_swap_rate,FR007利率互换曲线历史数据
+,macro_china_m2_yearly,M2货币供应年率
+,macro_china_supply_of_money,货币供应量
+,macro_china_money_supply,中国货币供应量
+,macro_bank_usa_interest_rate,美联储利率决议报告
+中国-综合,macro_cnbs,中国宏观杠杆率数据
+,macro_china_urban_unemployment,城镇调查失业率
+,macro_china_shrzgm,社会融资规模增量统计
+,macro_china_gdp_yearly,金十数据中心-经济指标-中国-国民经济运行状况-经济状况-中国GDP年率报告
+,macro_china_cpi_yearly,金十数据中心-经济指标-中国-国民经济运行状况-物价水平-中国CPI年率报告
+,macro_china_cpi_monthly,金十数据中心-经济指标-中国-国民经济运行状况-物价水平-中国CPI月率报告
+,macro_china_ppi_yearly,金十数据中心-经济指标-中国-国民经济运行状况-物价水平-中国PPI年率报告
+,macro_china_exports_yoy,金十数据中心-经济指标-中国-贸易状况-以美元计算出口年率报告
+,macro_china_imports_yoy,金十数据中心-经济指标-中国-贸易状况-以美元计算进口年率
+,macro_china_trade_balance,金十数据中心-经济指标-中国-贸易状况-以美元计算贸易帐(亿美元)
+,macro_china_industrial_production_yoy,金十数据中心-经济指标-中国-产业指标-规模以上工业增加值年率
+,macro_china_pmi_yearly,金十数据中心-经济指标-中国-产业指标-官方制造业PMI
+,macro_china_cx_pmi_yearly,金十数据中心-经济指标-中国-产业指标-财新制造业PMI终值
+,macro_china_cx_services_pmi_yearly,金十数据中心-经济指标-中国-产业指标-财新服务业PMI
+,macro_china_non_man_pmi,金十数据中心-经济指标-中国-产业指标-中国官方非制造业PMI
+,macro_china_fx_reserves_yearly,金十数据中心-经济指标-中国-金融指标-外汇储备(亿美元)
+,macro_china_daily_energy,金十数据中心-经济指标-中国-其他-中国日度沿海六大电库存数据
+,macro_china_new_house_price,中国-新房价指数
+,macro_china_enterprise_boom_index,中国-企业景气及企业家信心指数
+,macro_china_national_tax_receipts,中国-全国税收收入
+,macro_china_bank_financing,中国-银行理财产品发行数量
+,macro_china_new_financial_credit,中国-新增信贷数据
+,macro_china_fx_gold,中国-外汇和黄金储备
+,macro_china_stock_market_cap,中国-全国股票交易统计表
+,macro_china_cpi,中国-居民消费价格指数
+,macro_china_gdp,中国-国内生产总值
+,macro_china_ppi,中国-工业品出厂价格指数
+,macro_china_pmi,中国-采购经理人指数
+,macro_china_gdzctz,中国-城镇固定资产投资
+,macro_china_hgjck,中国-海关进出口增减情况一览表 / 海关进出口增减情况
+,macro_china_czsr,中国-财政收入
+,macro_china_whxd,中国-外汇贷款数据
+,macro_china_wbck,中国-本外币存款
+,macro_china_bond_public,中国-债券发行
+,macro_china_xfzxx,消费者信心指数
+,macro_china_gyzjz,工业增加值增长
+,macro_china_reserve_requirement_ratio,存款准备金率
+,macro_china_consumer_goods_retail,社会消费品零售总额
+,macro_china_society_electricity,全社会用电分类情况表
+,macro_china_society_traffic_volume,全社会客货运输量
+,macro_china_postal_telecommunicational,邮电业务基本情况
+,macro_china_international_tourism_fx,国际旅游外汇收入构成
+,macro_china_passenger_load_factor,民航客座率及载运率
+,macro_china_freight_index,航贸运价指数
+,macro_china_central_bank_balance,央行货币当局资产负债
+,macro_china_insurance,保险业经营情况
+,macro_china_foreign_exchange_gold,央行黄金和外汇储备
+,macro_china_retail_price_index,商品零售价格指数
+,macro_china_real_estate,国房景气指数
+,macro_china_qyspjg,企业商品价格指数
+,macro_china_fdi,外商直接投资数据
+,macro_china_insurance_income,原保险保费收入
+,macro_china_mobile_number,手机出货量
+,macro_china_vegetable_basket,菜篮子产品批发价格指数
+,macro_china_agricultural_product,农产品批发价格总指数
+,macro_china_agricultural_index,农副指数
+,macro_china_energy_index,能源指数
+,macro_china_commodity_price_index,大宗商品价格
+,macro_china_construction_index,建材指数
+,macro_china_construction_price_index,建材价格指数
+,macro_china_lpi_index,物流景气指数
+,macro_china_bdti_index,原油运输指数
+,macro_china_bsi_index,超灵便型船运价指数
+,macro_china_nbs_nation,国家统计局全国数据通用接口
+,macro_china_nbs_region,国家统计局地区数据通用接口
+美国,macro_usa_gdp_monthly,金十数据中心-经济指标-美国-经济状况-美国GDP
+,macro_usa_cpi_monthly,金十数据中心-经济指标-美国-物价水平-美国CPI月率报告
+,macro_usa_cpi_yoy,东方财富-经济数据一览-美国-CPI年率
+,macro_usa_core_cpi_monthly,金十数据中心-经济指标-美国-物价水平-美国核心CPI月率报告
+,macro_usa_personal_spending,金十数据中心-经济指标-美国-物价水平-美国个人支出月率报告
+,macro_usa_retail_sales,金十数据中心-经济指标-美国-物价水平-美国零售销售月率报告
+,macro_usa_import_price,金十数据中心-经济指标-美国-物价水平-美国进口物价指数报告
+,macro_usa_export_price,金十数据中心-经济指标-美国-物价水平-美国出口价格指数报告
+,macro_usa_lmci,金十数据中心-经济指标-美国-劳动力市场-LMCI
+,macro_usa_unemployment_rate,金十数据中心-经济指标-美国-劳动力市场-失业率-美国失业率报告
+,macro_usa_job_cuts,金十数据中心-经济指标-美国-劳动力市场-失业率-美国挑战者企业裁员人数报告
+,macro_usa_non_farm,金十数据中心-经济指标-美国-劳动力市场-就业人口-美国非农就业人数报告
+,macro_usa_adp_employment,金十数据中心-经济指标-美国-劳动力市场-就业人口-美国ADP就业人数报告
+,macro_usa_core_pce_price,金十数据中心-经济指标-美国-劳动力市场-消费者收入与支出-美国核心PCE物价指数年率报告
+,macro_usa_real_consumer_spending,金十数据中心-经济指标-美国-劳动力市场-消费者收入与支出-美国实际个人消费支出季率初值报告
+,macro_usa_trade_balance,金十数据中心-经济指标-美国-贸易状况-美国贸易帐报告
+,macro_usa_current_account,金十数据中心-经济指标-美国-贸易状况-美国经常帐报告
+,macro_usa_rig_count,金十数据中心-经济指标-美国-产业指标-制造业-贝克休斯钻井报告
+,macro_usa_ppi,金十数据中心-经济指标-美国-产业指标-制造业-美国生产者物价指数(PPI)报告
+,macro_usa_core_ppi,金十数据中心-经济指标-美国-产业指标-制造业-美国核心生产者物价指数(PPI)报告
+,macro_usa_api_crude_stock,金十数据中心-经济指标-美国-产业指标-制造业-美国API原油库存报告
+,macro_usa_pmi,金十数据中心-经济指标-美国-产业指标-制造业-美国Markit制造业PMI初值报告
+,macro_usa_ism_pmi,金十数据中心-经济指标-美国-产业指标-制造业-美国ISM制造业PMI报告
+,macro_usa_nahb_house_market_index,金十数据中心-经济指标-美国-产业指标-房地产-美国NAHB房产市场指数报告
+,macro_usa_house_starts,金十数据中心-经济指标-美国-产业指标-房地产-美国新屋开工总数年化报告
+,macro_usa_new_home_sales,金十数据中心-经济指标-美国-产业指标-房地产-美国新屋销售总数年化报告
+,macro_usa_building_permits,金十数据中心-经济指标-美国-产业指标-房地产-美国营建许可总数报告
+,macro_usa_exist_home_sales,金十数据中心-经济指标-美国-产业指标-房地产-美国成屋销售总数年化报告
+,macro_usa_house_price_index,金十数据中心-经济指标-美国-产业指标-房地产-美国FHFA房价指数月率报告
+,macro_usa_spcs20,金十数据中心-经济指标-美国-产业指标-房地产-美国S&P/CS20座大城市房价指数年率报告
+,macro_usa_pending_home_sales,金十数据中心-经济指标-美国-产业指标-房地产-美国成屋签约销售指数月率报告
+,macro_usa_cb_consumer_confidence,金十数据中心-经济指标-美国-领先指标-美国谘商会消费者信心指数报告
+,macro_usa_nfib_small_business,金十数据中心-经济指标-美国-领先指标-美国NFIB小型企业信心指数报告
+,macro_usa_michigan_consumer_sentiment,金十数据中心-经济指标-美国-领先指标-美国密歇根大学消费者信心指数初值报告
+,macro_usa_eia_crude_rate,金十数据中心-经济指标-美国-其他-美国EIA原油库存报告
+,macro_usa_initial_jobless,金十数据中心-经济指标-美国-其他-美国初请失业金人数报告
+,macro_usa_crude_inner,金十数据中心-经济指标-美国-其他-美国原油产量报告
+,macro_usa_phs,未决房屋销售月率
+全球/大宗,macro_cons_gold,全球最大黄金ETF—SPDR Gold Trust持仓报告
+,macro_cons_silver,全球最大白银ETF--iShares Silver Trust持仓报告
+,macro_cons_opec_month,欧佩克报告
+,macro_cons_gold_volume,全球最大黄金ETF—SPDR Gold Trust持仓报告
+,macro_cons_gold_change,全球最大黄金ETF—SPDR Gold Trust持仓报告
+,macro_cons_gold_amount,全球最大黄金ETF—SPDR Gold Trust持仓报告
+,macro_cons_silver_volume,全球最大白银ETF--iShares Silver Trust持仓报告
+,macro_cons_silver_change,全球最大白银ETF--iShares Silver Trust持仓报告
+,macro_cons_silver_amount,全球最大白银ETF--iShares Silver Trust持仓报告
+,macro_euro_lme_holding,伦敦金属交易所(LME)-持仓报告
+,macro_euro_lme_stock,伦敦金属交易所(LME)-库存报告
+,macro_usa_cftc_nc_holding,外汇类非商业持仓报告
+,macro_usa_cftc_c_holding,商品类非商业持仓报告
+,macro_usa_cftc_merchant_currency_holding,外汇类商业持仓报告
+,macro_usa_cftc_merchant_goods_holding,商品类商业持仓报告
+,macro_fx_sentiment,货币对-投机情绪报告
+,energy_carbon_domestic,碳排放权-国内
+,spot_goods,商品现货价格指数
+,drewry_wci_index,Drewry 集装箱指数
+,index_price_cflp,中国公路物流运价指数
+,index_volume_cflp,中国公路物流运量指数
+,macro_global_sox_index,费城半导体指数
+,macro_china_yw_electronic_index,义乌小商品指数-电子元器件
+,macro_info_ws,华尔街见闻-日历-宏观

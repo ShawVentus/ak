@@ -1,0 +1,67 @@
+子分类,接口名称 (Function),说明 (Description)
+股票指数,stock_zh_index_daily,股票指数历史行情数据
+,stock_zh_index_daily_em,股票指数历史行情数据-东方财富
+,index_stock_cons,股票指数-成份股-最新成份股
+,index_stock_cons_csindex,中证指数-成份股
+,index_stock_cons_weight_csindex,中证指数成份股的权重
+,index_stock_info,股票指数-成份股-所有可以的指数表
+,index_stock_info_sina,股票指数-成份股-所有可以的指数表-新浪新接口
+,stock_zh_index_hist_csindex,中证指数
+,stock_zh_index_value_csindex,中证指数-指数估值
+,index_all_cni,国证指数-所有指数
+,index_hist_cni,国证指数-指数行情
+,index_detail_cni,国证指数-样本详情
+,index_detail_hist_cni,国证指数-历史样本
+,index_detail_hist_adjust_cni,国证指数-历史调样
+,index_zh_a_hist,中国股票指数历史数据
+,index_zh_a_hist_min_em,中国股票指数-指数分时数据
+,index_global_hist_em,东方财富网-行情中心-全球指数-历史行情数据
+,index_global_name_table,新浪财经-行情中心-环球市场-名称代码映射表
+,index_csindex_all,中证指数网站-指数列表
+,stock_hk_index_spot_sina,新浪财经-行情中心-港股指数
+,stock_hk_index_daily_em,东方财富网-港股-股票指数数据
+,index_us_stock_sina,新浪财经-美股指数行情
+,stock_index_pe_lg,乐咕乐股-指数市盈率
+,stock_index_pb_lg,乐咕乐股-指数市净率
+行业/申万指数,sw_index_third_info,申万三级信息
+,sw_index_third_cons,申万三级信息成份
+,index_hist_sw,申万指数历史行情
+,stock_industry_clf_hist_sw,申万宏源研究-行业分类-全部行业分类
+,index_min_sw,申万指数分时行情
+,index_component_sw,申万指数成分股
+,index_analysis_daily_sw,申万宏源研究-指数分析-日报表
+,index_analysis_weekly_sw,申万宏源研究-指数分析-周报表
+,index_analysis_monthly_sw,申万宏源研究-指数分析-月报表
+,index_analysis_week_month_sw,申万宏源研究-指数分析-周/月-日期序列
+,index_hist_fund_sw,申万宏源研究-申万指数-指数发布-基金指数-历史行情
+波动率/商品指数,index_option_50etf_qvix,50ETF 期权波动率指数
+,index_option_50etf_min_qvix,50ETF 期权波动率指数 QVIX-分时
+,index_option_300etf_qvix,300 ETF 期权波动率指数
+,index_option_300etf_min_qvix,300 ETF 期权波动率指数 QVIX-分时
+,index_option_500etf_qvix,500 ETF 期权波动率指数
+,index_option_500etf_min_qvix,500 ETF 期权波动率指数 QVIX-分时
+,index_option_cyb_qvix,创业板 期权波动率指数
+,index_option_cyb_min_qvix,创业板 期权波动率指数 QVIX-分时
+,index_option_kcb_qvix,科创板 期权波动率指数
+,index_option_kcb_min_qvix,科创板 期权波动率指数 QVIX-分时
+,index_option_100etf_qvix,深证100ETF 期权波动率指数
+,index_option_100etf_min_qvix,深证100ETF 期权波动率指数 QVIX-分时
+,index_option_300index_qvix,中证300股指 期权波动率指数
+,index_option_300index_min_qvix,中证300股指 期权波动率指数 QVIX-分时
+,index_option_1000index_qvix,中证1000股指 期权波动率指数
+,index_option_1000index_min_qvix,中证1000股指 期权波动率指数 QVIX-分时
+,index_option_50index_qvix,上证50股指 期权波动率指数
+,index_option_50index_min_qvix,上证50股指 期权波动率指数 QVIX-分时
+,index_kq_fz,柯桥纺织指数
+,index_kq_fashion,柯桥时尚指数
+,index_sugar_msweet,中国食糖指数
+,index_inner_quote_sugar_msweet,配额内进口糖估算指数
+,index_outer_quote_sugar_msweet,配额外进口糖估算指数
+,index_hog_spot_price,生猪市场价格指数
+,index_yw,义乌小商品指数
+,bond_new_composite_index_cbond,中债-新综合指数
+,bond_composite_index_cbond,中债-综合指数
+,hf_sp_500,标普 500 指数的分钟数据
+,qdii_e_index_jsl,集思录-T+0 QDII-欧美市场-欧美指数
+,qdii_e_comm_jsl,集思录-T+0 QDII-欧美市场-商品
+,qdii_a_index_jsl,集思录-T+0 QDII-亚洲市场-亚洲指数
