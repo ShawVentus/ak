@@ -1,0 +1,32 @@
+# AkShare API 路由系统依赖
+
+# 向量数据库
+chromadb==0.4.22
+
+# LLM 客户端（OpenAI 兼容）
+openai==1.12.0
+
+# Web 界面
+gradio==4.16.0
+
+# 配置管理
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# 中文分词
+jieba==0.42.1
+
+# HTTP 客户端（Embedding 调用）
+httpx==0.26.0
+
+# 重试机制
+tenacity==8.2.3
+
+# 数据处理
+pandas>=2.0.0
+
+# Phase 2: AkShare API
+# akshare
+
+# Phase 2: 可视化（可选）
+# matplotlib
